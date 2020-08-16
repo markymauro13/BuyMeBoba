@@ -1,0 +1,155 @@
+.alert {
+    background-color: rgb(172, 217, 67) !important;
+}
+
+.body {
+    font-family: 'Courier New', Courier, monospace;
+    /* background-color: rgb(172, 217, 67); 
+    background-image: linear-gradient(to right, rgb(172, 217, 67), rgb(128, 98, 83));*/
+    overflow-x: hidden;
+    /*cuts trailing space on the right side of the screen for mobile*/
+}
+
+.navbar {}
+
+.underline {
+    text-decoration-color: rgb(172, 217, 67);
+}
+
+.section-1 {
+    position: relative;
+    margin-top: 1.5rem;
+}
+
+.section-2 {}
+
+.section-3 {}
+
+.section-4 {}
+
+.subheading {
+    font-size: 1.3rem;
+    color: white;
+    text-shadow: rgb(172, 217, 67);
+}
+
+.theul {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    list-style-type: decimal;
+}
+
+.instructions {
+
+    /* text-align: center;
+    list-style-position: inside;
+    list-style-type: decimal;
+    margin: 0;
+    /* list-style-type: trad-chinese-informal;
+*/
+}
+
+.btn-light {
+    color: rgb(128, 98, 83) !important;
+    font-size: 1rem !important;
+    background-color: rgb(172, 217, 67) !important;
+    border-radius: .8rem !important;
+    /*important override Bootstrap*/
+}
+
+.step-1 {
+    color: rgb(172, 217, 67);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.step-2 {
+    color: rgb(172, 217, 67);
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.border {
+    border-radius: 5vw;
+    margin: 1rem;
+}
+
+.copyright {
+    font-size: 1rem;
+}
+
+/*
+about.html
+*/
+
+.card {
+    border-color: rgb(172, 217, 67) !important;
+}
+
+.card-subtitle {
+    color: rgb(172, 217, 67) !important;
+}
+
+.card-link {
+    color: rgb(172, 217, 67) !important;
+}
+
+.space {
+    padding: 3rem;
+}
+
+.about-bmb {
+    font-size: 1.5rem;
+
+}
+
+@media only screen and (min-width: 798px) {
+    .about-bmb {
+        margin-right: 13rem;
+        margin-left: 13rem;
+    }
+}
+
+/*
+contact.html
+*/
+
+@media only screen and (max-width:768px) {
+    iframe {
+        width: 20rem;
+        height: 50rem;
+    }
+
+    .about-bmb {
+        font-size: 1.3rem;
+    }
+}
+
+.myButton {
+    box-shadow: inset 0px 0px 0px -50px #cf866c;
+    background: linear-gradient(to bottom, rgb(172, 217, 67) 5%, #ffffff 100%);
+    background-color: rgb(172, 217, 67);
+    border-radius: 14px;
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(92, 92, 92);
+    font-family: Courier New;
+    font-size: 21px;
+    padding: 9px 24px;
+    text-decoration: none;
+    text-shadow: 0px 0px 0px #854629;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, rgb(172, 217, 67) 5%, #2acf54 100%);
+    background-color: rgb(172, 217, 67);
+    color: black;
+    text-decoration: none;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
