@@ -4,7 +4,7 @@
 
 ## The site can be reached in the link below
 [BuyMeBoba](https://buymeboba.netlify.app/)
-- *Deployed with Netlify*
+-- *Deployed with Netlify*
 
 ### BuyMeBoba
 + Is not finished.
