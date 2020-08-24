@@ -8,7 +8,7 @@
 
 ### BuyMeBoba
 + Is not finished.
-+ Is not how I want it right now.
++ Is currently a prototype.
 + Is going to be cool!
 
 **Goals:**
