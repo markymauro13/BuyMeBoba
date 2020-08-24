@@ -1,163 +1,235 @@
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>BuyMeBoba</title>
-    <link rel="icon" href="/assets/boba_emoji.png">
-    <link rel="stylesheet" href="/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="icon" href="/assets/boba_emoji.png" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
     <script src="generate.js"></script>
-    <script src="https://kit.fontawesome.com/3263ba6030.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/3263ba6030.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
+  <body class="body bg-dark">
+    <div class="border-0 border-dark bg-dark">
+      <!--Alert on top of header-->
+      <div class="alert alert-dark alert-dismissible fade show text-center">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        <strong>Notice!</strong> BuyMeBoba is not finished and various updates
+        will be coming out monthly.
+      </div>
 
-
-<body class="body bg-dark">
-
-    <div class="border-0 border-dark  bg-dark">
-
-        <!--Alert on top of header-->
-        <div class="alert alert-dark alert-dismissible fade show text-center">
-            <button type="button" class="close" data-dismiss="alert">&times;</button>
-            <strong>Notice!</strong> BuyMeBoba is not finished and various updates will be coming out monthly.
+      <nav
+        class="navbar p-0 pb-3 navbar-expand-lg border-bottom border-secondary navbar-dark bg-dark"
+      >
+        <div class="container">
+          <a class="navbar-brand" href="/index.html">BuyMeBoba</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarResponsive"
+            aria-controls="navbarResponsive"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="/index.html"
+                  >Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/src/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
         </div>
+      </nav>
 
-        <nav class="navbar p-0 pb-3 navbar-expand-lg border-bottom border-secondary navbar-dark bg-dark">
-            <div class="container">
-
-                <a class="navbar-brand" href="/index.html">BuyMeBoba</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item ">
-                            <a class="nav-link" href="/index.html">Home
-                                <span class="sr-only">(current)</span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/src/about.html">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="/src/contact.html">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <div class="section-1  container-light text-light p-3 text-center">
-            <div class="row">
-                <div class="col-md-12">
-                    <u class="underline">
-                        <h1 class="heading font-weight-bold">BuyMeBoba</h1>
-                    </u>
-
-                    <p class="subheading">For anybody who needs some boba paid for.</p>
-                    <img src="/assets/boba_emoji.png" alt="boba-pic" width="110rem" height="100rem">
-                </div>
-            </div>
-        </div>
-
-        <div class="section-2 container-light text-light p-3 text-center">
-            <div class="row">
-                <div class="col-md-12">
-                    <u class="underline">
-                        <h2 class="heading font-weight-bold">What it is:</h2>
-                    </u>
-                    <p class="subheading mt-2">BuyMeBoba is a stylish service that helps accept payments and
-                        donations.
-                    </p>
-                    <p class="subheading">Heres how one BuyMeBoba button can look:</p>
-                    <a href="#" class="myButton">BuyMeBoba</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-3 container-light text-light p-3 text-center">
-            <div class="row">
-                <div class="col-md-12">
-                    <u class="underline">
-                        <h2 class="heading font-weight-bold">How it works:</h2>
-                    </u>
-                    <ul class="theul">
-                        <li class="instructions subheading">Click the button below.</li>
-                        <li class="instructions subheading">Fill out the required fields.</li>
-                        <li class="instructions subheading">Click the submit button.</li>
-                        <li class="instructions subheading">Boba button is ready. <br> 做得好! </br></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-
-        <div class="section-4 container-light text-light p-3 text-center">
+      <div class="section-1 container-light text-light p-3 text-center">
+        <div class="row">
+          <div class="col-md-12">
             <u class="underline">
-                <h2 class="heading font-weight-bold">Create Button:</h2>
+              <h1 class="heading font-weight-bold">BuyMeBoba</h1>
             </u>
 
-            <p class="instructions subheading">1. Type PayPal.me username:</p>
-
-            <input id="typePayPalLink">
-            <button type="button" class="btn btn-light" onclick="getUsername()" id="username">Submit</button>
-            <div class="step-1">
-                <p id="field-1"></p>
-            </div>
-            <!--This displays the username after yout pres submit-->
-
-
-            <p class="instructions subheading mb-3">2. Click Generate!</p>
-            <button type="button" class="btn font-weight-bold shadow mt-0 btn-light newButt" onclick="generateCode()"
-                id="code">Generate</button>
-            <div class="step-2">
-                <p id="field-2"></p>
-            </div>
-
+            <p class="subheading">For anybody who needs some boba paid for.</p>
+            <img
+              src="/assets/boba_emoji.png"
+              alt="boba-pic"
+              width="110rem"
+              height="100rem"
+            />
+          </div>
         </div>
+      </div>
+
+      <div class="section-2 container-light text-light p-3 text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <u class="underline">
+              <h2 class="heading font-weight-bold">What it is:</h2>
+            </u>
+            <p class="subheading mt-2">
+              BuyMeBoba is a stylish service that helps accept payments and
+              donations.
+            </p>
+            <p class="subheading">Heres how one BuyMeBoba button can look:</p>
+            <a href="#">
+              <button
+                type="button"
+                class="button"
+                style="
+                  font-family: 'Courier New', Courier, monospace;
+                  font-weight: 500;
+                  background-color: grey;
+                  color: white;
+                  font-size: 1.5rem;
+                  padding: 10px 15px 10px 15px;
+                  border-radius: 8px;
+                  border: 0rem;
+                  border-color: rgb(172, 217, 67);
+                "
+              >
+                <img
+                  src="/assets/boba_emoji.png"
+                  width="50rem"
+                  height="50rem"
+                />
+                BuyMeBoba
+                <img
+                  src="/assets/boba_emoji.png"
+                  width="50rem"
+                  height="50rem"
+                />
+              </button>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-3 container-light text-light p-3 text-center">
+        <div class="row">
+          <div class="col-md-12">
+            <u class="underline">
+              <h2 class="heading font-weight-bold">How it works:</h2>
+            </u>
+            <ul class="theul">
+              <li class="instructions subheading">Click the button below.</li>
+              <li class="instructions subheading">
+                Fill out the required fields.
+              </li>
+              <li class="instructions subheading">Click the submit button.</li>
+              <li class="instructions subheading">Boba button is ready.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="section-4 container-light text-light p-3 text-center">
+        <u class="underline">
+          <h2 class="heading font-weight-bold">Create Button:</h2>
+        </u>
+
+        <p class="instructions subheading">1. Type PayPal.me username:</p>
+
+        <input id="typePayPalLink" />
+        <button
+          type="button"
+          class="btn btn-light"
+          onclick="getUsername()"
+          id="username"
+        >
+          Submit
+        </button>
+        <div class="step-1">
+          <p id="field-1"></p>
+        </div>
+        <!--This displays the username after yout press submit-->
+
+        <p class="subheading mb-3">2. Click Generate!</p>
+        <button
+          type="button"
+          class="btn shadow mt-0 btn-light"
+          onclick="generateCode();"
+          id="code"
+        >
+          Generate
+        </button>
+        <div class="step-2">
+          <p id="field-2"></p>
+        </div>
+      </div>
     </div>
 
     <script>
-        var paypalUsername;
+      var paypalUsername;
 
-        function getUsername() {
-            // Get the value of the input field with id="typePayPalLink"
-            paypalUsername = document.getElementById("typePayPalLink").value;
-            console.log(paypalUsername);
-            // display the username portion of url "https://paypal.me/markymauro"  
-            document.getElementById("field-1").innerHTML = "Excellent! You're @" + paypalUsername;
-            return paypalUsername;
-        }
+      function getUsername() {
+        // Get the value of the input field with id="typePayPalLink"
+        paypalUsername = document.getElementById("typePayPalLink").value;
+        console.log(paypalUsername);
+        // display the username portion of url "https://paypal.me/paypalUsername"
+        document.getElementById("field-1").innerHTML =
+          "Excellent! You're @" + paypalUsername;
+        return paypalUsername;
+      }
 
-        function generateCode() {
-            var paypalLink, theButton;
-            paypalLink = "https://www.paypal.me/" + paypalUsername;
-            theButton = "BuyMeBoba button is here! Copy the code below to paste to your site: " + '<a href ="' +
-                paypalLink +
-                '"> <button type="button" class="btn btn-primary">BuyMeBoba</button> </a>';
-            document.getElementById("field-2").innerText = theButton;
-            console.log(paypalLink);
-        }
+      function generateCode() {
+        var paypalLink, theButton;
+        paypalLink = "https://www.paypal.me/" + paypalUsername;
+        theButton =
+          "BuyMeBoba button is here! Copy the code below to paste to your site: " +
+          '<a href ="' +
+          paypalLink +
+          '"> <button type="button" class="button" style="font-family: \'Courier New\', Courier, monospace;font-weight: 500;background-color: grey;color: white;font-size: 1.5rem; padding: 10px 15px 10px 15px;border-radius: 8px;border: 0rem;border-color: rgb(172, 217, 67);"> <img src="/assets/boba_emoji.png" width="50rem" height="50rem"/>BuyMeBoba <img src="/assets/boba_emoji.png" width="50rem" height="50rem"/></button> </a>';
+        document.getElementById("field-2").innerText = theButton;
+        alert(
+          "Congrats! You just finished making your BuyMeBoba Button. Click OK to proceed."
+        );
+      }
     </script>
-    <footer id="sticky-footer" class="py-4 bg-dark text-white-50 border-top border-secondary">
-        <div class="container text-center">
-            <small class="copyright">Copyright &copy; BuyMeBoba.me</small>
-        </div>
+    <footer
+      id="sticky-footer"
+      class="py-4 bg-dark text-white-50 border-top border-secondary"
+    >
+      <div class="container text-center">
+        <small class="copyright">Copyright &copy; BuyMeBoba.me</small>
+      </div>
     </footer>
-</body>
+  </body>
 
-
-
-<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-</script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-</script>
-
+  <script
+    src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"
+  ></script>
 </html>
